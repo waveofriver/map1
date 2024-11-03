@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e0f86472608de44b63fba9422f36c06 {
+                    position: relative;
+                    width: 1500.0px;
+                    height: 1300.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e0f86472608de44b63fba9422f36c06" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e0f86472608de44b63fba9422f36c06 = L.map(
+                "map_0e0f86472608de44b63fba9422f36c06",
+                {
+                    center: [33.379732, 126.559967],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8df30884cddc668cf959f7901169aad3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8df30884cddc668cf959f7901169aad3.addTo(map_0e0f86472608de44b63fba9422f36c06);
+        
+    
+            var marker_2ef407e75e43194108a47e61d0c16819 = L.marker(
+                [33.493732, 126.525741],
+                {}
+            ).addTo(map_0e0f86472608de44b63fba9422f36c06);
+        
+    
+        var popup_df61aa81bc0704a0faeffb3d88c40982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149578ebaa91e4817274814c8caf262f = $(`<div id="html_149578ebaa91e4817274814c8caf262f" style="width: 100.0%; height: 100.0%;"><a href="https://namu.wiki/w/%EC%95%84%EB%9D%BC%EC%A4%91%ED%95%99%EA%B5%90" target="_blank">도남초등학교</a></div>`)[0];
+                popup_df61aa81bc0704a0faeffb3d88c40982.setContent(html_149578ebaa91e4817274814c8caf262f);
+            
+        
+
+        marker_2ef407e75e43194108a47e61d0c16819.bindPopup(popup_df61aa81bc0704a0faeffb3d88c40982)
+        ;
+
+        
+    
+    
+            marker_2ef407e75e43194108a47e61d0c16819.bindTooltip(
+                `<div>
+                     도남초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_724cb9c49abeb722b11b98cb3e10b3e5 = L.marker(
+                [33.486165, 126.546004],
+                {}
+            ).addTo(map_0e0f86472608de44b63fba9422f36c06);
+        
+    
+        var popup_12b82bd1e564a0826be14558f66a00cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db3b23229e58c7b06e1e86f92629882 = $(`<div id="html_8db3b23229e58c7b06e1e86f92629882" style="width: 100.0%; height: 100.0%;"><a href="https://namu.wiki/w/%EC%95%84%EB%9D%BC%EC%A4%91%ED%95%99%EA%B5%90" target="_blank">아라중학교</a></div>`)[0];
+                popup_12b82bd1e564a0826be14558f66a00cf.setContent(html_8db3b23229e58c7b06e1e86f92629882);
+            
+        
+
+        marker_724cb9c49abeb722b11b98cb3e10b3e5.bindPopup(popup_12b82bd1e564a0826be14558f66a00cf)
+        ;
+
+        
+    
+    
+            marker_724cb9c49abeb722b11b98cb3e10b3e5.bindTooltip(
+                `<div>
+                     아라중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f9c0b72ab04fabf70268321afe6f37 = L.marker(
+                [33.49323, 126.592871],
+                {}
+            ).addTo(map_0e0f86472608de44b63fba9422f36c06);
+        
+    
+        var popup_f4167a4568dcbacb25aa4eb58e18874c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02d0a6d6d50e8791792419a087f3b0d7 = $(`<div id="html_02d0a6d6d50e8791792419a087f3b0d7" style="width: 100.0%; height: 100.0%;"><a href="https://namu.wiki/w/%EC%95%84%EB%9D%BC%EC%A4%91%ED%95%99%EA%B5%90" target="_blank">대기고등학교</a></div>`)[0];
+                popup_f4167a4568dcbacb25aa4eb58e18874c.setContent(html_02d0a6d6d50e8791792419a087f3b0d7);
+            
+        
+
+        marker_11f9c0b72ab04fabf70268321afe6f37.bindPopup(popup_f4167a4568dcbacb25aa4eb58e18874c)
+        ;
+
+        
+    
+    
+            marker_11f9c0b72ab04fabf70268321afe6f37.bindTooltip(
+                `<div>
+                     대기고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
